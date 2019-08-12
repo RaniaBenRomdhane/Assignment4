@@ -1,0 +1,7 @@
+<ul class="categories-listcontent">
+
+  <li ng-repeat="element in $ctrl.categories">
+  <a ui-sref="items({shotName: element.short_name})" > {{element.short_name}}</a>
+  {{element.name}}</li>
+
+  </ul>
